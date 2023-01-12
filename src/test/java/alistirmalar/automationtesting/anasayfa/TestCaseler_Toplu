@@ -1,0 +1,626 @@
+
+TEST CASE 1
+ 1. Home Page with three Sliders only
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Sliders only
+6) The Home page must contains only three sliders
+
+TEST CASE2
+ 2. Home page with three Arrivals only
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+
+TEST CASE 3
+ 3. Home page - Images in Arrivals should navigate
+
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+
+
+TEST CASE 4
+ 4. Home page - Arrivals-Images-Description
+
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on Description tab for the book you clicked on.
+11) There should be a description regarding that book the user clicked on
+
+
+TEST CASE 5
+ 5. Home page - Arrivals-Images-Reviews
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Now clock on Reviews tab for the book you clicked on.
+11) There should be a Reviews regarding that book the user clicked on
+
+
+TEST CASE 6
+ 6. Home page - Arrivals-Images-Add to Basket
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) User can add a book by clicking on Add To Basket button which adds that book in to his Basket
+
+TEST CASE 7
+7. Home page - Arrivals-Add to Basket with more books
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) User can add a book by clicking on Add To Basket button which adds that book in to his Basket
+13) Select more books than the books in stock.Ex if the stock has 20 books, try to add 21.
+14) Click the add to basket button
+15) Now it throws an error prompt like you must enter a value between 1 and 20
+
+
+TEST CASE 8
+8. Home-Arrivals-Add to Basket-Items
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) User can click on the Item link in menu item after adding the book in to the basket which leads to the check out page
+
+
+TEST CASE 9
+ 9. Home-Arrivals-Add to Basket-Items-Coupon
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) User can click on the Item link in menu item after adding the book in to the basket which leads to the check out page
+14) Enter the Coupon code as ‘krishnasakinala’ to get 50rps off on the total.
+15) User can able to apply coupon by entering ‘krishnasakinala’ in the coupon textbox which give 50rps off on the total price
+
+TEST CASE 10
+10. Home-Arrivals-Add to Basket-Items-Coupon value<450
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) User can click on the Item link in menu item after adding the book in to the basket which leads to the check out page
+14) Enter the Coupon code as ‘krishnasakinala’ to get 50rps off on the total.
+15) User can not able to apply coupon by entering ‘krishnasakinala’ in the coupon textbox which give 50rps off on the total price
+because the coupon is applicable for the book price > 450 rps
+
+
+TEST CASE 11
+11. Home-Arrivals-Add to Basket-Items-Remove book
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) Now click on Remove this icon in Check out page which removes that book from the grid.
+14) User has the feasibility to remove the book at the time of check out also
+
+TEST CASE 12
+ 12. Home-Arrivals-Add to Basket-Items-Add book
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) Click on textbox value under quantity in Check out page to add or subtract books.
+14) Now after the above change ‘Update Basket’ button will turn into Clickable mode.
+15) Now click on Update Basket to reflect those changes
+16) User has the feasibility to Update Basket at the time of check out.
+
+
+TEST CASE 13
+ 13. Home-Arrivals-Add to Basket-Items-Check-out-Book Final price
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) Now User can find the Total price of the book in the Check out grid.
+14) User has the feasibility to find the total price of the books at to find the total price of the books at the time of check out
+
+TEST CASE 14
+ 14. Home-Arrivals-Add to Basket-Items-Check-out-Update Basket
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) Click on textbox value under quantity in Check out page to add or subtract books.
+14) Now after the above change ‘Update Basket’ button will turn into Clickable mode.
+15) Now click on Update Basket to reflect those changes
+16) User has the feasibility to Update Basket at the time of check out
+
+
+TEST CASE 15
+ 15. Home-Arrivals-Add to Basket-Items-Check-out-Total & Sub-total condition
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) Now user can find total and subtotal values just above the Proceed to Checkout button.
+14) The total always < subtotal because taxes are added in the subtotal
+15) Total
+
+
+TEST CASE 16
+ 16. Home-Arrivals-Add to Basket-Items-Check-out functionality
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) Now user can find total and subtotal values just above the Proceed to Checkout button.
+14) The total always < subtotal because taxes are added in the subtotal
+15) Now click on Proceed to Check out button which navigates to payment gateway page.
+16) Clicking on Proceed to Checkout button leads to payment gateway page
+17)Clicking on Proceed to Checkout button leads to payment gateway page
+
+
+
+TEST CASE 17
+ 17. Home-Arrivals-Add to Basket-Items-Check-out-Payment Gateway
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13)Now user can find total and subtotal values just above the Proceed to Checkout button.
+14)The total always < subtotal because taxes are added in the subtotal
+15)Now click on Proceed to Check out button which navigates to payment gateway page.
+16)User can view Billing Details,Order Details,Additional details and Payment gateway details.
+17)Now user can fill his details in billing details form and can opt any payment in the payment gateway like Direct bank transfer,cheque,cash or paypal.
+18)User has the feasibility to add coupon in the payment gateway page and also he can find billing,order and additional details.
+
+
+TEST CASE 18
+ 18. Home-Arrivals-Add to Basket-Items-Check-out-Payment Gateway-Place order
+1) Open the browser
+2) Enter the URL “http://practice.automationtesting.in/”
+3) Click on Shop Menu
+4) Now click on Home menu button
+5) Test whether the Home page has Three Arrivals only
+6) The Home page must contains only three Arrivals
+7) Now click the image in the Arrivals
+8) Test whether it is navigating to next page where the user can add that book into his basket.
+9) Image should be clickable and shoul navigate to next page where user can add that book to his basket
+10) Click on the Add To Basket button which adds that book to your basket
+11) User can view that Book in the Menu item with price.
+12) Now click on Item link which navigates to proceed to check out page.
+13) Now user can find total and subtotal values just above the Proceed to Checkout button.
+14) The total always < subtotal because taxes are added in the subtotal
+15) Now click on Proceed to Check out button which navigates to payment gateway page.
+16) User can view Billing Details,Order Details,Additional details and Payment gateway details.
+17) Now user can fill his details in billing details form and can opt any payment in the payment gateway like Direct bank transfer,cheque,cash or paypal.
+18) Now click on Place Order button to complete process
+19) On clicking place-order button user completes the process where the page navigates to Order confirmation page
+with order details,bank details,customer details and billing details.
+
+
+
+TEST CASELERIN TURKCELERI
+TEST DURUMU 1
+  1. Yalnızca üç Sürgü içeren Ana Sayfa
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Kaydırıcı olup olmadığını test edin
+6) Ana sayfa yalnızca üç kaydırıcı içermelidir
+
+TEST VAKA2
+  2. Yalnızca üç Varış içeren ana sayfa
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+
+TEST DURUMU 3
+  3. Ana sayfa - Varışlardaki resimler gezinmelidir
+
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+
+
+TEST DURUMU 4
+  4. Ana sayfa - Gelenler-Resimler-Açıklama
+
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) Tıkladığınız kitap için Açıklama sekmesine tıklayın.
+11) Kullanıcının tıkladığı kitapla ilgili bir açıklama olmalıdır.
+
+
+TEST DURUMU 5
+  5. Ana sayfa - Gelenler-Resimler-İncelemeler
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) Şimdi tıkladığınız kitap için İncelemeler sekmesinde saat.
+11) Kullanıcının tıkladığı kitapla ilgili bir İnceleme olmalı
+
+
+TEST DURUMU 6
+  6. Ana sayfa - Gelenler-Görseller-Sepete Ekle
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Kullanıcı, o kitabı Sepetine ekleyen Sepete Ekle düğmesine tıklayarak bir kitap ekleyebilir.
+
+TEST DURUMU 7
+7. Ana sayfa - Gelenler-Daha fazla kitapla Sepete Ekle
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Kullanıcı, o kitabı Sepetine ekleyen Sepete Ekle düğmesine tıklayarak bir kitap ekleyebilir.
+13) Stoktaki kitaplardan daha fazla kitap seçin. Örneğin, stokta 20 kitap varsa, 21 eklemeye çalışın.
+14) Sepete ekle butonuna tıklayın
+15) Şimdi 1 ile 20 arasında bir değer girmeniz gerekiyormuş gibi bir hata mesajı veriyor.
+
+TEST DURUMU 8
+8. Ev-Gelenler-Sepete Ekle-Ürünler
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Kullanıcı, kitabı sepete ekledikten sonra, ödeme sayfasına yönlendiren menü öğesindeki Öğe bağlantısına tıklayabilir.
+
+
+TEST DURUMU 9
+  9. Ev-Gelenler-Sepete Ekle-Ürünler-Kupon
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Kullanıcı, kitabı sepete ekledikten sonra, ödeme sayfasına yönlendiren menü öğesindeki Öğe bağlantısına tıklayabilir.
+14) Toplamda 50rps indirim kazanmak için Kupon kodunu 'krishnasakinala' olarak girin.
+15) Kullanıcı, toplam fiyat üzerinden 50rps indirim sağlayan kupon metin kutusuna 'krishnasakinala' yazarak kupon uygulayabilir.
+
+TEST VAKA 10
+10. Eve-Gelenler-Sepete Ekle-Ürünler-Kupon değeri<450
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Kullanıcı, kitabı sepete ekledikten sonra, ödeme sayfasına yönlendiren menü öğesindeki Öğe bağlantısına tıklayabilir.
+14) Toplamda 50rps indirim kazanmak için Kupon kodunu 'krishnasakinala' olarak girin.
+15) Kullanıcı, toplam fiyat üzerinden 50rps indirim veren kupon metin kutusuna "krishnasakinala" yazarak kupon uygulayamaz.
+çünkü kupon kitap fiyatı > 450 rps için geçerlidir
+
+
+TEST VAKA 11
+11. Ana Sayfa-Gelenler-Sepete Ekle-Ürünler-Kitabı Kaldır
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Şimdi, bu kitabı ızgaradan kaldıran Çıkış sayfasındaki Bu simgeyi kaldır'a tıklayın.
+14) Kullanıcı, check-out sırasında kitabı kaldırma olanağına da sahiptir.
+
+TEST VAKA 12
+  12. Ana Sayfa-Gelenler-Sepete Ekle-Ürünler-Kitap Ekle
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Kitap eklemek veya çıkarmak için Çıkış sayfasında miktar altındaki metin kutusu değerine tıklayın.
+14) Şimdi yukarıdaki değişiklikten sonra 'Sepeti Güncelle' düğmesi Tıklanabilir moda dönüşecektir.
+15) Şimdi bu değişiklikleri yansıtmak için Sepeti Güncelle'ye tıklayın
+16) Kullanıcı, ödeme anında Sepeti Güncelleme olanağına sahiptir.
+
+
+TEST VAKA 13
+  13. Ana Sayfa-Gelenler-Sepete Ekle-Ürünler-Çıkış-Kitabı Son fiyat
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Artık Kullanıcı, Kitabın Toplam fiyatını Ödeme tablosunda bulabilir.
+14) Kullanıcı, ödeme anında kitapların toplam fiyatını bulmak için kitapların toplam fiyatını bulma fizibilitesine sahiptir.
+
+TEST VAKA 14
+  14. Ana Sayfa-Gelenler-Sepete Ekle-Ürünler-Çıkış-Sepeti Güncelle
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Kitap eklemek veya çıkarmak için Çıkış sayfasında miktar altındaki metin kutusu değerine tıklayın.
+14) Şimdi yukarıdaki değişiklikten sonra 'Sepeti Güncelle' düğmesi Tıklanabilir moda dönüşecektir.
+15) Şimdi bu değişiklikleri yansıtmak için Sepeti Güncelle'ye tıklayın
+16) Kullanıcı, ödeme sırasında Sepeti Güncelleme olanağına sahiptir.
+
+
+TEST DURUMU 15
+  15. Ev-Gelenler-Sepete Ekle-Ürünler-Çıkış-Toplam ve Ara toplam durumu
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Artık kullanıcı, Ödeme İşlemine Geç düğmesinin hemen üzerinde toplam ve ara toplam değerlerini bulabilir.
+14) Toplam her zaman > alt toplam çünkü ara toplama vergiler eklenir
+15) Toplam
+
+
+TEST VAKA 16
+  16. Eve-Gelenler-Sepete Ekle-Öğeler-Ödeme işlevi
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Artık kullanıcı, Ödeme İşlemine Geç düğmesinin hemen üzerinde toplam ve ara toplam değerlerini bulabilir.
+14) Toplam her zaman > alt toplam çünkü ara toplama vergiler eklenir
+15) Şimdi, ödeme ağ geçidi sayfasına giden Kontrol Et düğmesine tıklayın.
+16) Ödemeye Devam Et düğmesine tıklamak, ödeme ağ geçidi sayfasına yönlendirir
+17)Ödemeye Devam Et düğmesine tıklamak, ödeme ağ geçidi sayfasına yönlendirir
+
+
+
+TEST VAKA 17
+  17. Ev-Gelenler-Sepete Ekle-Ürünler-Ödeme-Ödeme Ağ Geçidi
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Artık kullanıcı, Ödeme İşlemine Devam Et düğmesinin hemen üzerinde toplam ve alt toplam değerleri bulabilir.
+14) Toplam her zaman > alt toplam çünkü ara toplama vergiler eklenir
+15) Şimdi, ödeme ağ geçidi sayfasına giden Kontrol Et düğmesine tıklayın.
+16)Kullanıcı, Fatura Ayrıntılarını, Sipariş Ayrıntılarını, Ek ayrıntıları ve Ödeme ağ geçidi ayrıntılarını görüntüleyebilir.
+17) Artık kullanıcı, fatura ayrıntıları formundaki ayrıntılarını doldurabilir ve Doğrudan banka havalesi, çek, nakit veya paypal gibi ödeme ağ geçidinde herhangi bir ödemeyi seçebilir.
+18)Kullanıcı, ödeme ağ geçidi sayfasında kupon ekleme olanağına sahiptir ve ayrıca fatura, sipariş ve ek ayrıntıları bulabilir.
+
+
+TEST VAKA 18
+  18. Ev-Gelenler-Sepete Ekle-Ürünler-Ödeme-Ödeme Ağ Geçidi-Sipariş Ver
+1) Tarayıcıyı açın
+2) "http://practice.automationtesting.in/" URL'sini girin
+3) Mağaza Menüsüne tıklayın
+4) Şimdi Ana menü düğmesine tıklayın
+5) Ana sayfada yalnızca Üç Varış olup olmadığını test edin
+6) Ana sayfa yalnızca üç Varış içermelidir
+7) Şimdi Gelenler bölümündeki resme tıklayın
+8) Kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gidip gitmediğini test edin.
+9) Resim tıklanabilir olmalı ve kullanıcının o kitabı sepetine ekleyebileceği bir sonraki sayfaya gitmelidir.
+10) O kitabı sepetinize ekleyen Sepete Ekle düğmesine tıklayın
+11) Kullanıcı o Kitabı Menü öğesinde fiyatla görüntüleyebilir.
+12) Şimdi, ödeme sayfasına ilerlemek için gezinen Öğe bağlantısına tıklayın.
+13) Artık kullanıcı, Ödeme İşlemine Geç düğmesinin hemen üzerinde toplam ve ara toplam değerlerini bulabilir.
+14) Toplam her zaman > alt toplam çünkü ara toplama vergiler eklenir
+15) Şimdi, ödeme ağ geçidi sayfasına giden Kontrol Et düğmesine tıklayın.
+16) Kullanıcı, Fatura Ayrıntılarını, Sipariş Ayrıntılarını, Ek ayrıntıları ve Ödeme ağ geçidi ayrıntılarını görüntüleyebilir.
+17) Artık kullanıcı ayrıntılarını fatura ayrıntıları formunda doldurabilir ve Doğrudan banka havalesi, çek, nakit veya paypal gibi ödeme ağ geçidinde herhangi bir ödemeyi seçebilir.
+18) Şimdi işlemi tamamlamak için Sipariş Ver düğmesine tıklayın
+19) Sipariş ver düğmesine tıklandığında kullanıcı, sayfanın Sipariş onay sayfasına gittiği süreci tamamlar.
+sipariş detayları, banka detayları, müşteri detayları ve fatura detayları ile.
