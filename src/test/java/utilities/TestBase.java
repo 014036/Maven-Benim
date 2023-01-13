@@ -1,6 +1,7 @@
 package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -15,8 +16,11 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Set;
 
@@ -41,6 +45,8 @@ TESTBASE ICINDEKI METHODLAR
        g- ACTIONS_DRAG_AND_DROP
        h- ACTIONS_DRAG_AND_DROP_BY
 9- DYNAMIC SELENIUM WAITS: (Bekleme methodlari)
+10- SCREENSHOTS ALMA METHODU
+11- SCREENSHOT    @params: WebElement
  */
 
 
@@ -86,7 +92,7 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
     //tearDown olustur
     @After
     public void tearDown() throws Exception {
-        //waitFor(3);
+        waitFor(3);
         driver.quit();
     }
 
@@ -239,7 +245,7 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
     }
 
 
-    //    This can be used when a new page opens
+    //    This can be used when a new page opens --yeni sayfaya gecislerde kullanilabilir
     public static void waitForPageToLoad(long timeout) {
         ExpectedCondition<Boolean> expectation = new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver driver) {
@@ -267,6 +273,34 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
         return element;
     }
 
+
+
+    //   SCREENSHOTS
+    public void takeScreenShotOfPage() throws IOException {
+//        1. Take screenshot
+        File image = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//       2. Save screenshot
+//        getting the current time as string to use in teh screenshot name, previous screenshots will be kept
+        String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//        Path of screenshot save folder               folder / folder    /file name
+        String path = System.getProperty("user.dir")+"/test-output/Screenshots/"+currentTime+"_image.png";
+        FileUtils.copyFile(image,new File(path));
+    }
+
+
+
+    //    SCREENSHOT
+//    @params: WebElement
+//    takes screenshot
+    public void takeScreenshotOfElement(WebElement element) throws IOException {
+//        1. take screenshot
+        File image = element.getScreenshotAs(OutputType.FILE);
+//        2. save screenshot
+//        path
+        String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        String path = System.getProperty("user.dir")+"/test-output/Screenshots/"+currentTime+"image.png";
+        FileUtils.copyFile(image,new File(path));
+    }
 
  /*
    // SHADOW ELEMENTLERI LOCATE ETMEK ICIN ASAGIDAKI YOL IZLENIR
