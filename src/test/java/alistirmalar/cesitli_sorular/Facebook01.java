@@ -1,4 +1,4 @@
-package alistirmalar.ornek_test_caseler;
+package alistirmalar.cesitli_sorular;
 
 public class Facebook01 {
     /*

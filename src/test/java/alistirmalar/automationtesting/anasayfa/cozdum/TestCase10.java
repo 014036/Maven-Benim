@@ -94,6 +94,7 @@ TEST VAKA 10
         System.out.println("kuponSonucYazisiVarMi = " + kuponSonucYazisiVarMi);
         String expectedKuponIndirimYazisiVArMi="Coupon: krishnasakinala";
         Assert.assertTrue(!kuponSonucYazisiVarMi.contains(expectedKuponIndirimYazisiVArMi));
+        waitFor(10);
         driver.close();
 
     }
