@@ -45,8 +45,8 @@ TESTBASE ICINDEKI METHODLAR
        g- ACTIONS_DRAG_AND_DROP
        h- ACTIONS_DRAG_AND_DROP_BY
 9- DYNAMIC SELENIUM WAITS: (Bekleme methodlari)
-10- SCREENSHOTS ALMA METHODU
-11- SCREENSHOT    @params: WebElement
+10- SCREENSHOTS ALMA METHODU takeScreenShotOfPage() PARAMETRESIZ VEYA KAYDEDILIRKEN VERILECEK DOSYA ADI ILE
+11- SCREENSHOT    @params: WebElement takeScreenshotOfElement(WebElement element)
  */
 
 
@@ -276,6 +276,7 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
 
 
     //   SCREENSHOTS
+    //parametresiz
     public void takeScreenShotOfPage() throws IOException {
 //        1. Take screenshot
         File image = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -283,10 +284,23 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
 //        getting the current time as string to use in teh screenshot name, previous screenshots will be kept
         String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 //        Path of screenshot save folder               folder / folder    /file name
-        String path = System.getProperty("user.dir")+"/test-output/Screenshots/"+currentTime+"_image.png";
+        String path = System.getProperty("user.dir")+"/test-output/Screenshots/"+currentTime+"image.png";
         FileUtils.copyFile(image,new File(path));
     }
 
+
+    //DOSYA ADI VERILEREK EKRAN GORUNTUSU ALMA
+
+    public void takeScreenShotOfPage(String fileName) throws IOException {
+//        1. Take screenshot
+        File image = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//       2. Save screenshot
+//        getting the current time as string to use in teh screenshot name, previous screenshots will be kept
+        String currentTime = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+//        Path of screenshot save folder               folder / folder    /file name
+        String path = System.getProperty("user.dir")+"/test-output/Screenshots/"+currentTime+"_"+fileName+".png";
+        FileUtils.copyFile(image,new File(path));
+    }
 
 
     //    SCREENSHOT
