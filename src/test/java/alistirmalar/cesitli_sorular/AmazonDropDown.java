@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import utilities.TestBase;
 
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class AmazonDropDown extends TestBase {
@@ -23,7 +25,16 @@ public class AmazonDropDown extends TestBase {
 
         WebElement ddm= driver.findElement(By.xpath("//*[@id='searchDropdownBox']"));
 Select select= new Select(ddm);
-int sayi= select.getOptions().size();
+
+List<String>all=new ArrayList<>();
+for (WebElement w: select.getOptions()){
+    all.add(w.getText());
+
+}
+        System.out.println("all = " + all);
+
+
+        int sayi= select.getOptions().size();
         System.out.println("sayi = " + sayi);
 
 
