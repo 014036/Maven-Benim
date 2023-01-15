@@ -47,6 +47,7 @@ TESTBASE ICINDEKI METHODLAR
 9- DYNAMIC SELENIUM WAITS: (Bekleme methodlari)
 10- SCREENSHOTS ALMA METHODU takeScreenShotOfPage() PARAMETRESIZ VEYA KAYDEDILIRKEN VERILECEK DOSYA ADI ILE
 11- SCREENSHOT    @params: WebElement takeScreenshotOfElement(WebElement element)
+12- WEBTABLE'DEN DATA CEKMEK
  */
 
 
@@ -78,7 +79,7 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
     protected static WebDriver driver;
 
 
-    //setup methodu olustur
+    //1- setup methodu olustur
     @Before
     public void setUp() throws Exception {
 
@@ -89,14 +90,15 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
-    //tearDown olustur
+
+    //2- tearDown olustur
     @After
     public void tearDown() throws Exception {
         waitFor(3);
         driver.quit();
     }
 
-    //PENCERELER ARASI GECIS YAPMAK ICIN
+    //3- PENCERELER ARASI GECIS YAPMAK ICIN
     public void switchToWindow(int sekmeNumarasi){
         List<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(sekmeNumarasi-1));
@@ -105,7 +107,7 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
 
 
 
-    //    MULTIPLE WINDOW PENCERELER ARASI GECIS YAPMAK ICIN
+    //   3- B MULTIPLE WINDOW PENCERELER ARASI GECIS YAPMAK ICIN
     //1 Parametre alir: Gecis yapmak istedigim sayfanin Title'i
     public static void switchToWindow(String targetTitle) {
         String origin = driver.getWindowHandle();
@@ -316,6 +318,13 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
         FileUtils.copyFile(image,new File(path));
     }
 
+
+    //WEBTABLE'DEN DATA CEKMEK
+    public void webTableDataPrint(String tableNumber, String rowNumber, String columnNumber){
+        String rowData=    driver.findElement(By.xpath("//table["+tableNumber+"]//tr["+rowNumber+"]//td["+columnNumber+"]")).getText();
+        System.out.println("rowData = " + rowData);
+    }
+
  /*
    // SHADOW ELEMENTLERI LOCATE ETMEK ICIN ASAGIDAKI YOL IZLENIR
     Thread.sleep(1000);
@@ -344,6 +353,12 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
         ILK admin: username
         Ikinci admin: password
         adres satirinin sonuna da "basic_auth" ifadesi yazilacak
+
+
+        public void basicAuthentication(WebElement target, String adminName, String password){
+    driver.get("https://"+adminName+":"+password+target.getText().substring(8));
+
+}
 
      */
 
