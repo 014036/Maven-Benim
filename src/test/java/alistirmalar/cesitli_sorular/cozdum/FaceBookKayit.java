@@ -1,4 +1,4 @@
-package alistirmalar.cesitli_sorular;
+package alistirmalar.cesitli_sorular.cozdum;
 
 import com.github.javafaker.Faker;
 import org.junit.Test;
