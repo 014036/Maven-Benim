@@ -44,5 +44,7 @@ Kaydolma sayfası için Test Senaryoları
 #9) Yinelenen e-posta adresinin atanıp atanmayacağını doğrulayın.
 
 #10) Kullanım kolaylığı için formdaki her alan için ipuçları verildiğini doğrulayın.
+
+kgjg;d
      */
 }
