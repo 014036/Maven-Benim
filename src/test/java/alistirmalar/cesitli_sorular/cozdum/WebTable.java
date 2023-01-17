@@ -1,4 +1,4 @@
-    package alistirmalar.cesitli_sorular;
+    package alistirmalar.cesitli_sorular.cozdum;
 
     import org.junit.Assert;
     import org.junit.Test;
