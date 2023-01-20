@@ -48,6 +48,12 @@ TESTBASE ICINDEKI METHODLAR
 10- SCREENSHOTS ALMA METHODU takeScreenShotOfPage() PARAMETRESIZ VEYA KAYDEDILIRKEN VERILECEK DOSYA ADI ILE
 11- SCREENSHOT    @params: WebElement takeScreenshotOfElement(WebElement element)
 12- WEBTABLE'DEN DATA CEKMEK
+13- scrollIntoViewJS PAENCEREYE ELEMENTE KADAR KAYDIRMA(JAVASCRIPT)
+14- SAYFANIN EN ALTINA INMEK ICIN JAVASCRIPT
+15-SAYFANIN EN USTUNE CIKMAK ICIN JAVASCRIPT
+16- BIR ELEMENTE JAVASCRIPT ILE CLICK YAPMA
+17-JAVASCRIPT ILE BIR ELEMANIN DEGERINI DEGISTIREBILME METHODU
+18-JAVASCRIPT ILE SENDKEYS METHODUNUN ALTERNATIFI
  */
 
 
@@ -325,6 +331,43 @@ Bu sinifin amaci obje olusturmak degil buraya extends yapmaktir
         System.out.println("rowData = " + rowData);
     }
 
+
+    //    SCROLLINTOVIEWJS
+    public void scrollIntoViewJS(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].scrollIntoView(true);",element);
+    }
+
+    //SAYFANIN EN ALTINA IN
+    public void scrollEndJS(){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
+    }
+
+    //SAYFANIN EN USTUNE CIK
+
+    public void scrollTopJS(){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
+
+    }
+
+
+    //    Bu metot ile belirli bir elemente JS executor ile tiklanabilir
+    public void clickByJS(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].click();",element);
+    }
+
+
+    //   gitmis oldugum metni elemente yazdirir
+//    bu method sendKeys metotuna bir alternatifdir.
+//    sendKeys oncelikli tercihimizdir
+    public void typeWithJS(WebElement element, String metin) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value','" + metin + "')", element);
+    }
  /*
    // SHADOW ELEMENTLERI LOCATE ETMEK ICIN ASAGIDAKI YOL IZLENIR
     Thread.sleep(1000);
