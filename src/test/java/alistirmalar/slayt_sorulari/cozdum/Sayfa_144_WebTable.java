@@ -1,4 +1,4 @@
-package alistirmalar.slayt_sorulari.cozmedim;
+package alistirmalar.slayt_sorulari.cozdum;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
