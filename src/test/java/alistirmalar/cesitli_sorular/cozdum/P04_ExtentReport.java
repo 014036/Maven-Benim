@@ -1,6 +1,8 @@
 package practice04;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,7 +12,9 @@ import utilities.TestBase;
 import java.time.Duration;
 
 public class P04_ExtentReport extends TestBase {
-
+protected static ExtentTest extentTest;
+    protected static ExtentReports extentReports;
+    protected  static ExtentHtmlReporter extentHtmlReporter;
     @Test
     public void invisibleTest() {
         extentTest=extentReports.createTest("Extent Tests","Test Raporu");
